@@ -1,0 +1,14 @@
+{
+  "name": "pennypolendina",
+  "description": "Record keeper for Mythos",
+  "version": "0.0.0",
+  "main": "penny.js",
+  "scripts": {
+    "start": "node penny"
+  },
+  "dependencies": {
+    "discord.js": "12.5.3",
+    "string-similarity": "3.0.0",
+    "winston": "2.4.0"
+  }
+}
