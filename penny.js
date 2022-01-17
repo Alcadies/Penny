@@ -1615,4 +1615,4 @@ bot.on("messageReactionAdd", async function(messageReaction, user) {
     bot.channels.cache.get(logsChannel).send(leaveLog);
 })*/
 
-bot.login("Njc2OTg5NzQxMTczOTY0ODAw.XkOvDA.zz3zcSZKeBBBovT2VvoSIiqsTx8")
+bot.login(process.env.token)
